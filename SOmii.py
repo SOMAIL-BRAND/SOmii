@@ -53,7 +53,7 @@ logo ="""
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
 \033[1;91m[!]\033[1;92mMEMBERSHIP:     \x1b[1;96m  VIP
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
-\033[1;91m[!]\033[1;92mCOPYRIGHT :         \x1b[1;96m   iTx-Somii-Brand \033[1;0m
+\033[1;91m[!]\033[1;92mCOPYRIGHT :         \x1b[1;96m       SOMAIL-Brand \033[1;0m
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
 \033[1;91m[!]\033[1;92m Author \x1b[1;97m  : \x1b[1;91m          Muhammad Somail
 \033[1;91m[!]\033[1;92m Facebook\x1b[1;97m :  \x1b[1;92m         somii3032
@@ -130,7 +130,7 @@ def gets_dict_cookies(cookies):
 def main():
     os.system("clear")
     print(logo)
-    print(" \x1b[1;97m    [SOMii] MAIN MENU")
+    print(" \x1b[1;97m    [SOMAIL-BRAND] MAIN MENU")
     print("\x1b[1;97m-----------------------------------------------------")
     print("\x1b[1;91m [1]\x1b[1;97m  Paid Users Menu")
     print(" \x1b[1;91m[2]\x1b[1;97m  Free Users Menu ")
@@ -184,7 +184,7 @@ def reg():
         print '\tApproved Failed'
         print ' \x1b[1;92mYour Id Is Not Approved '
         print ' \x1b[1;92mCopy the id and send to Admin'
-        print ' \x1b[1;92mYour id : ' + to
+        print ' \x1b[1;92m
         raw_input('\x1b[1;93m Press enter to send id')
         os.system('xdg-open https://wa.me/+923183700115')
         reg()
